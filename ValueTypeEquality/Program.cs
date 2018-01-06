@@ -12,8 +12,6 @@ namespace ValueTypeEquality
 
             Console.WriteLine($"int == int2 : {@int == int2}");
             Console.WriteLine($"bool == int2 : {@bool == int2}");
-            Console.ReadKey(true);
-            
         }
     }
 }
