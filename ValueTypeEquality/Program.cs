@@ -6,7 +6,12 @@ namespace ValueTypeEquality
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TypeItem @int = new TypeItem("int", ValueType.Int);
+            TypeItem int2 = new TypeItem("int", ValueType.Int);
+            TypeItem @bool = new TypeItem("bool", ValueType.Bool);
+
+            Console.WriteLine($"int == int2 : {@int == int2}");
+            Console.WriteLine($"bool == int2 : {@bool == int2}");
         }
     }
 }
